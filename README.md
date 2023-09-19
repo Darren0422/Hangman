@@ -22,9 +22,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ### Available Scripts
 
-In the project directory, you can run:
+In the project terminal, you can run:
 
-#### `npm start`
+<img width="1578" alt="Screenshot 2023-09-19 at 12 42 24" src="https://github.com/Darren0422/Capstone4/assets/134398985/b85c1ee8-0608-44b6-8a79-bacf9d798da4">
+
+#### "npm start"
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
@@ -35,22 +37,17 @@ You should see this when you successfully open the React game:
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-#### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-#### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
 ## Game Rules
+
+-> The objective of Hangman is to guess the secret word correctly before you run out of attempts.
+
+-> The secret word is represented by a row of underscores, with each underscore representing a letter in the word.
+
+-> If a player guesses a letter that is in the word or phrase, all instances of that letter are revealed in the display.
+
+-> If a player guesses a letter that is not in the word or phrase, a part of the hangman is drawn.
+
+-> You have 6 attempts.
 
 ## Credits
 [Darren Chen](https://github.com/Darren0422)
